@@ -1,7 +1,7 @@
 # Write a function that takes one integer argument and returns True when the number's absolute value is odd, False otherwise.
 
 def odd_or_not(n):
-    if int(n) % 2 == 0:
+    if abs(n) % 2 == 0:
         return False
     else:
         return True
